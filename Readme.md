@@ -6,4 +6,18 @@
 
 Класс `ToyShop` представляет собой реализацию магазина игрушек. Он содержит методы для инициализации игрушек, создания очереди и записи результатов в файл.
 
+### Конструктор
 
+```java
+public ToyShop(String toyData1, String toyData2, String toyData3)
+```
+
+Конструктор класса ToyShop принимает три массива: ids содержит идентификаторы игрушек, names содержит названия игрушек, а weights содержит их частоту выпадения.
+
+### Метод writeToTextFile
+
+```java
+public void writeToTextFile(String filename, int times)
+```
+
+Метод writeToTextFile записывает 10 случайно выбранных игрушек в файл с именем toys.txt.
